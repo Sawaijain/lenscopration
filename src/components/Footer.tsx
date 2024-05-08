@@ -10,7 +10,7 @@ const Footer = () => {
         <div>
           <div className="space-y-4">
             <Image src="/logo.webp" width={100} height={100} alt="logo" />
-            <h2 className="text-xl font-bold">Tomorrow's Vision, Today!</h2>
+            <h2 className="text-xl font-bold">Tomorrow&apos;s Vision, Today!</h2>
             <div className="flex gap-8 text-accent text-2xl pt-16">
               <FaFacebookF />
               <BsTwitter />
