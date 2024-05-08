@@ -1,0 +1,84 @@
+.background {
+    background-image: url('/background.webp'); /* Path to the image relative to the public directory */
+    background-size: cover;
+    background-position: center;
+  }
+
+  .NewAbout_underline{
+    width: 165px;
+    height: 8px;
+    border-radius: 1000px;
+    background: var(--gr-4, linear-gradient(54deg, #0091ff 0, #9cfeff 100%));
+  }
+
+  .NewAbout_aboutContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--aboutBg);
+    padding: 5rem 0;
+}
+
+  .NewAbout_aboutContent {
+    /* display: flex;
+    flex-direction: row-reverse; */
+    width: 80%;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    background-color: #e2f2ff;
+    padding: 2rem 3rem;
+    border-radius: 16.433px;
+    transition: .3s;
+   
+}
+
+.NewServiceCard_headingCont__QkfmB {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.NewServiceCard_number__FPZAO:first-child {
+    margin-left: 40px;
+}
+
+.NewServiceCard_number__FPZAO {
+    flex-shrink: 0;
+    color: #707070;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 123.2px;
+    top: 35px;
+    left: 40px;
+    opacity: .2;
+    transition: .3s;
+}
+
+.NewServiceCard_cardHead__JPzMC {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: -20px;
+    margin-top: 35px;
+    transition: .3s;
+}
+
+.NewServiceCard_cardBody__d0fwE {
+    width: 80%;
+    color: #8a8a8a;
+    margin: 25px auto 0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32.4px;
+}
+
+.scrollbar_thumb {
+    background: var(--gr-4, linear-gradient(54deg, #0091ff 0, #9cfeff 100%));
+    background-clip: content-box;
+    border-radius: 20px;
+}
